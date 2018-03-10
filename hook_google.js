@@ -12,6 +12,5 @@ btn1.setAttribute("href", href_text);
 
 
 var sf = document.getElementById("sfdiv");
-var btn = document.getElementById("_fZl");
 
-sf.insertBefore(btn1, btn);
+sf.insertBefore(btn1, sf.firstChild);
